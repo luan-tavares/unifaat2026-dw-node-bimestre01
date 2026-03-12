@@ -17,10 +17,56 @@ Dentro de cada pasta, os arquivos são independentes entre si e podem ser execut
 ### Requisitos
 
 - Node.js >= 24
+- Git
 
 Para conferir:
 
     node -v
+    git --version
+
+### Passo a passo rápido no WSL / Linux
+
+#### 01 - Instalar o Node.js 25
+
+01.1 - Atualizar os pacotes do sistema:
+
+    sudo apt update
+
+01.2 - Instalar o `curl`, caso ainda não tenha:
+
+    sudo apt install curl -y
+
+01.3 - Adicionar o repositório do Node.js 25:
+
+    curl -fsSL https://deb.nodesource.com/setup_25.x | sudo -E bash -
+
+01.4 - Instalar o Node.js:
+
+    sudo apt install -y nodejs
+
+01.5 - Conferir a versão instalada:
+
+    node -v
+
+#### 02 - Instalar o Git
+
+02.1 - Instalar o Git:
+
+    sudo apt install git -y
+
+02.2 - Conferir a versão instalada:
+
+    git --version
+
+#### 03 - Baixar este repositório
+
+03.1 - Clonar o repositório:
+
+    git clone https://github.com/luan-tavares/unifaat2026-dw-node-bimestre01
+
+03.2 - Entrar na pasta do projeto:
+
+    cd unifaat2026-dw-node-bimestre01
 
 ### Como executar
 
