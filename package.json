@@ -1,0 +1,11 @@
+{
+  "name": "dw-bimestre-01",
+  "version": "1.0.0",
+  "description": "Aula de desenvolvimento web - 2026",
+  "keywords": [
+    "unifaat"
+  ],
+  "license": "ISC",
+  "author": "Luan Tavares",
+  "type": "module"
+}
